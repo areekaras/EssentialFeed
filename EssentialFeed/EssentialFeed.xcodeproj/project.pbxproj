@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				080EDF0121B6DA7E00813479 /* Info.plist */,
-				60E057092E766FA40085DEFC /* RemoteFeedLoaderTests.swift */,
+				606D44D92E92636F004E083B /* Feed API */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -102,6 +102,14 @@
 				080EDF0D21B6DCB600813479 /* FeedLoader.swift */,
 			);
 			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
+		606D44D92E92636F004E083B /* Feed API */ = {
+			isa = PBXGroup;
+			children = (
+				60E057092E766FA40085DEFC /* RemoteFeedLoaderTests.swift */,
+			);
+			path = "Feed API";
 			sourceTree = "<group>";
 		};
 		60BF8B082E835BC6005606D3 /* Feed API */ = {
