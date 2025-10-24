@@ -210,9 +210,9 @@
 				60E9EFE12EAAEE1C00F2AB3F /* FeedStoreSpecs */,
 				60E12ECD2EA349900088AF96 /* CacheFeedUseCaseTests.swift */,
 				60E9EFC12EA4A6F000F2AB3F /* LoadFeedFromCacheUseCaseTests.swift */,
-				60E9EFE62EAB01A300F2AB3F /* CoreDataFeedStoreTests.swift */,
 				60E9EFC62EA5EF2700F2AB3F /* ValidateFeedCacheUseCaseTests.swift */,
 				60E9EFCF2EA6F93F00F2AB3F /* CodableFeedStoreTests.swift */,
+				60E9EFE62EAB01A300F2AB3F /* CoreDataFeedStoreTests.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
