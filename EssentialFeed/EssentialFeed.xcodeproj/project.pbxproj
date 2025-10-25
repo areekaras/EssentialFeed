@@ -221,10 +221,10 @@
 			isa = PBXGroup;
 			children = (
 				60E12ED22EA380FA0088AF96 /* LocalFeedLoader.swift */,
-				60E9EFD52EA8CF8000F2AB3F /* CodableFeedStore.swift */,
 				60E12ED42EA381970088AF96 /* FeedStore.swift */,
 				60E12ED82EA490610088AF96 /* LocalFeedImage.swift */,
 				60E9EFCD2EA61CCF00F2AB3F /* FeedCachePolicy.swift */,
+				60E9EFD52EA8CF8000F2AB3F /* CodableFeedStore.swift */,
 				60E9EFE82EAC319200F2AB3F /* CoreDataFeedStore.swift */,
 				60E9EFEA2EAC330A00F2AB3F /* FeedStore.xcdatamodeld */,
 			);
