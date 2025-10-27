@@ -187,11 +187,7 @@
 		080EDEE721B6DA7E00813479 = {
 			isa = PBXGroup;
 			children = (
-				603710342EADE49700167EB9 /* EssentialFeediOS.xctestplan */,
-				603710192EADE1F500167EB9 /* EssentialFeedAPIEndToEndTests.xctestplan */,
-				60370FEC2EAC7B8900167EB9 /* EssentialFeedCacheIntegrationTests.xctestplan */,
-				60F60EFC2E9719CD00ADA68C /* CI_macOS.xctestplan */,
-				603710352EADE94C00167EB9 /* CI_iOS.xctestplan */,
+				6037104A2EAEF48600167EB9 /* Test Plans */,
 				080EDEF321B6DA7E00813479 /* EssentialFeed */,
 				080EDEFE21B6DA7E00813479 /* EssentialFeedTests */,
 				60F60EF02E95DDD500ADA68C /* EssentialFeedAPIEndToEndTests */,
@@ -244,6 +240,18 @@
 				080EDF0D21B6DCB600813479 /* FeedLoader.swift */,
 			);
 			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
+		6037104A2EAEF48600167EB9 /* Test Plans */ = {
+			isa = PBXGroup;
+			children = (
+				603710342EADE49700167EB9 /* EssentialFeediOS.xctestplan */,
+				603710192EADE1F500167EB9 /* EssentialFeedAPIEndToEndTests.xctestplan */,
+				60370FEC2EAC7B8900167EB9 /* EssentialFeedCacheIntegrationTests.xctestplan */,
+				60F60EFC2E9719CD00ADA68C /* CI_macOS.xctestplan */,
+				603710352EADE94C00167EB9 /* CI_iOS.xctestplan */,
+			);
+			path = "Test Plans";
 			sourceTree = "<group>";
 		};
 		606D44D92E92636F004E083B /* Feed API */ = {
