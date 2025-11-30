@@ -52,7 +52,7 @@ public final class FeedViewController: UITableViewController, UITableViewDataSou
     }
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return cellController(for: indexPath).view()
+        return cellController(for: indexPath).view(in: tableView)
     }
     
     public override func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
