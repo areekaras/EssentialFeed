@@ -2,7 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "FEED_VIEW_TITLE" : {
-      "extractionState" : "manual",
+      "comment" : "Title for the feed view",
       "localizations" : {
         "en" : {
           "stringUnit" : {
