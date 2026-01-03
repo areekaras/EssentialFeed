@@ -45,6 +45,8 @@
 		6025F4F72F070C5100EC49AB /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025F4F62F070C5100EC49AB /* LoadFeedImageDataFromCacheUseCaseTests.swift */; };
 		6025F4F92F08E55800EC49AB /* FeedImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025F4F82F08E55800EC49AB /* FeedImageDataStore.swift */; };
 		6025F4FB2F08E56F00EC49AB /* LocalFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025F4FA2F08E56F00EC49AB /* LocalFeedImageDataLoader.swift */; };
+		6025F4FD2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025F4FC2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift */; };
+		6025F4FE2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025F4FC2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift */; };
 		60370FE62EAC7B6900167EB9 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080EDEF121B6DA7E00813479 /* EssentialFeed.framework */; };
 		60370FED2EAC831B00167EB9 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F60EE72E9486B800ADA68C /* XCTestCase+MemoryLeakTracking.swift */; };
 		60370FEE2EAC867E00167EB9 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E9EFC82EA5F3F800F2AB3F /* FeedCacheTestHelpers.swift */; };
@@ -192,6 +194,7 @@
 		6025F4F62F070C5100EC49AB /* LoadFeedImageDataFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedImageDataFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		6025F4F82F08E55800EC49AB /* FeedImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStore.swift; sourceTree = "<group>"; };
 		6025F4FA2F08E56F00EC49AB /* LocalFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoader.swift; sourceTree = "<group>"; };
+		6025F4FC2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStoreSpy.swift; sourceTree = "<group>"; };
 		60370FE22EAC7B6900167EB9 /* EssentialFeedCacheIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedCacheIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60370FEC2EAC7B8900167EB9 /* EssentialFeedCacheIntegrationTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedCacheIntegrationTests.xctestplan; sourceTree = "<group>"; };
 		603710192EADE1F500167EB9 /* EssentialFeedAPIEndToEndTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedAPIEndToEndTests.xctestplan; sourceTree = "<group>"; };
@@ -596,6 +599,7 @@
 			children = (
 				60E9EFC42EA4A87600F2AB3F /* FeedStoreSpy.swift */,
 				60E9EFC82EA5F3F800F2AB3F /* FeedCacheTestHelpers.swift */,
+				6025F4FC2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -941,6 +945,7 @@
 				60E9EFC52EA4A87600F2AB3F /* FeedStoreSpy.swift in Sources */,
 				60E9EFCC2EA5F49C00F2AB3F /* SharedTestHelpers.swift in Sources */,
 				60E12ECE2EA349900088AF96 /* CacheFeedUseCaseTests.swift in Sources */,
+				6025F4FE2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift in Sources */,
 				60E9EFE02EAAED7A00F2AB3F /* XCTestCase+FailableDeleteFeedStoreSpecs.swift in Sources */,
 				60E9EFDC2EAAEB8000F2AB3F /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				60E9EFC22EA4A6F000F2AB3F /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
@@ -960,6 +965,7 @@
 				60370FEE2EAC867E00167EB9 /* FeedCacheTestHelpers.swift in Sources */,
 				603710AB2EB5F20F00167EB9 /* EssentialFeedCacheIntegrationTests.swift in Sources */,
 				60370FED2EAC831B00167EB9 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
+				6025F4FD2F0907DD00EC49AB /* FeedImageDataStoreSpy.swift in Sources */,
 				6025F4E82EF2284B00EC49AB /* HTTPClientSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
