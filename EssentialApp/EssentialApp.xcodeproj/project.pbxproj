@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6015B7D3302ADAFB007439B6 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015B7D2302ADAFB007439B6 /* FeedImageDataLoaderWithFallbackComposite.swift */; };
+		6015B7D6302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015B7D5302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift */; };
 		601B39A63029D63A002AE7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B399B3029D63A002AE7F0 /* AppDelegate.swift */; };
 		601B39A73029D63A002AE7F0 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B399D3029D63A002AE7F0 /* FeedLoaderWithFallbackComposite.swift */; };
 		601B39A83029D63A002AE7F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B39A33029D63A002AE7F0 /* SceneDelegate.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		6015B7D2302ADAFB007439B6 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
+		6015B7D5302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		601B399B3029D63A002AE7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		601B399C3029D63A002AE7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		601B399D3029D63A002AE7F0 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6015B7D4302ADB8D007439B6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6015B7D5302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		601B39A53029D63A002AE7F0 /* EssentialApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		601B39AF3029D63F002AE7F0 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				6015B7D4302ADB8D007439B6 /* Helpers */,
 				601B39AE3029D63F002AE7F0 /* FeedLoaderWithFallbackCompositeTests.swift */,
 				601B39B13029D787002AE7F0 /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 			);
@@ -260,6 +271,7 @@
 			files = (
 				601B39B23029D787002AE7F0 /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				601B39B03029D63F002AE7F0 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
+				6015B7D6302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
