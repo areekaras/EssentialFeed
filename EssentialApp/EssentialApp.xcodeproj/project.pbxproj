@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		600C2DEE302C1DC000E8E18E /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600C2DED302C1DC000E8E18E /* DebuggingSceneDelegate.swift */; };
 		6015B7D3302ADAFB007439B6 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015B7D2302ADAFB007439B6 /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 		6015B7D6302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015B7D5302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift */; };
 		6015B7D8302ADC6E007439B6 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015B7D7302ADC6E007439B6 /* SharedTestHelpers.swift */; };
@@ -78,7 +77,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		600C2DED302C1DC000E8E18E /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		6015B7D2302ADAFB007439B6 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		6015B7D5302ADBAC007439B6 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		6015B7D7302ADC6E007439B6 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 				601B39A03029D63A002AE7F0 /* LaunchScreen.storyboard */,
 				601B39A23029D63A002AE7F0 /* Main.storyboard */,
 				601B39A33029D63A002AE7F0 /* SceneDelegate.swift */,
-				600C2DED302C1DC000E8E18E /* DebuggingSceneDelegate.swift */,
 				601B39A43029D63A002AE7F0 /* ViewController.swift */,
 				60462C2F303C065200E3F43A /* FeedUIComposer.swift */,
 				60462C30303C065200E3F43A /* MainQueueDispatchDecorator.swift */,
@@ -351,7 +348,6 @@
 				60462C38303C065200E3F43A /* MainQueueDispatchDecorator.swift in Sources */,
 				60462C39303C065200E3F43A /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				60462C3A303C065200E3F43A /* FeedUIComposer.swift in Sources */,
-				600C2DEE302C1DC000E8E18E /* DebuggingSceneDelegate.swift in Sources */,
 				601B39A93029D63A002AE7F0 /* ViewController.swift in Sources */,
 				6015B7D3302ADAFB007439B6 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				6015B7EC302B5425007439B6 /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
