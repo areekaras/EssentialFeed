@@ -88,6 +88,9 @@
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VcE-Hl-pbY">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="353"/>
+                                                            <accessibility key="accessibilityConfiguration" identifier="feed-image-view">
+                                                                <bool key="isElement" value="YES"/>
+                                                            </accessibility>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3im-Sp-6yL">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="353"/>
@@ -140,6 +143,9 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="fKf-Dd-TFd" secondAttribute="bottom" priority="999" constant="6" id="yDi-zz-Zjk"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration" identifier="feed-image-cell">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                                 <connections>
                                     <outlet property="descriptionLabel" destination="j9g-Ai-Fye" id="PM6-Nx-7so"/>
                                     <outlet property="feedImageContainer" destination="64x-2n-GUp" id="Yw3-Xj-HYf"/>
