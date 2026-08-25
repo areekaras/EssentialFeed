@@ -32,13 +32,6 @@
   },
   "testTargets" : [
     {
-      "target" : {
-        "containerPath" : "container:EssentialApp.xcodeproj",
-        "identifier" : "607C9476302B886D0024E686",
-        "name" : "EssentialAppUIAcceptanceTests"
-      }
-    },
-    {
       "parallelizable" : false,
       "target" : {
         "containerPath" : "container:..\/EssentialFeed\/EssentialFeed.xcodeproj",
